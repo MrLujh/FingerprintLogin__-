@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EEBFEB01FA0372B00EACEFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBFEAF1FA0372B00EACEFF /* AppDelegate.m */; };
+		2EEBFEB31FA0372C00EACEFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBFEB21FA0372C00EACEFF /* ViewController.m */; };
+		2EEBFEB61FA0372C00EACEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEBFEB41FA0372C00EACEFF /* Main.storyboard */; };
+		2EEBFEB81FA0372C00EACEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEBFEB71FA0372C00EACEFF /* Assets.xcassets */; };
+		2EEBFEBB1FA0372C00EACEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEBFEB91FA0372C00EACEFF /* LaunchScreen.storyboard */; };
+		2EEBFEBE1FA0372C00EACEFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBFEBD1FA0372C00EACEFF /* main.m */; };
+		2EEBFEC81FA0372C00EACEFF /* FingerprintLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBFEC71FA0372C00EACEFF /* FingerprintLoginTests.m */; };
+		2EEBFED31FA0372C00EACEFF /* FingerprintLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBFED21FA0372C00EACEFF /* FingerprintLoginUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EEBFEC41FA0372C00EACEFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EEBFEA31FA0372B00EACEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EEBFEAA1FA0372B00EACEFF;
+			remoteInfo = FingerprintLogin;
+		};
+		2EEBFECF1FA0372C00EACEFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EEBFEA31FA0372B00EACEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EEBFEAA1FA0372B00EACEFF;
+			remoteInfo = FingerprintLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EEBFEAB1FA0372B00EACEFF /* FingerprintLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerprintLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEBFEAE1FA0372B00EACEFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EEBFEAF1FA0372B00EACEFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EEBFEB11FA0372C00EACEFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EEBFEB21FA0372C00EACEFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EEBFEB51FA0372C00EACEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EEBFEB71FA0372C00EACEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EEBFEBA1FA0372C00EACEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EEBFEBC1FA0372C00EACEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EEBFEBD1FA0372C00EACEFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EEBFEC31FA0372C00EACEFF /* FingerprintLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerprintLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEBFEC71FA0372C00EACEFF /* FingerprintLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerprintLoginTests.m; sourceTree = "<group>"; };
+		2EEBFEC91FA0372C00EACEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EEBFECE1FA0372C00EACEFF /* FingerprintLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerprintLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEBFED21FA0372C00EACEFF /* FingerprintLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerprintLoginUITests.m; sourceTree = "<group>"; };
+		2EEBFED41FA0372C00EACEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EEBFEA81FA0372B00EACEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEBFEC01FA0372C00EACEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEBFECB1FA0372C00EACEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EEBFEA21FA0372B00EACEFF = {
+			isa = PBXGroup;
+			children = (
+				2EEBFEAD1FA0372B00EACEFF /* FingerprintLogin */,
+				2EEBFEC61FA0372C00EACEFF /* FingerprintLoginTests */,
+				2EEBFED11FA0372C00EACEFF /* FingerprintLoginUITests */,
+				2EEBFEAC1FA0372B00EACEFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EEBFEAC1FA0372B00EACEFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EEBFEAB1FA0372B00EACEFF /* FingerprintLogin.app */,
+				2EEBFEC31FA0372C00EACEFF /* FingerprintLoginTests.xctest */,
+				2EEBFECE1FA0372C00EACEFF /* FingerprintLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EEBFEAD1FA0372B00EACEFF /* FingerprintLogin */ = {
+			isa = PBXGroup;
+			children = (
+				2EEBFEAE1FA0372B00EACEFF /* AppDelegate.h */,
+				2EEBFEAF1FA0372B00EACEFF /* AppDelegate.m */,
+				2EEBFEB11FA0372C00EACEFF /* ViewController.h */,
+				2EEBFEB21FA0372C00EACEFF /* ViewController.m */,
+				2EEBFEB41FA0372C00EACEFF /* Main.storyboard */,
+				2EEBFEB71FA0372C00EACEFF /* Assets.xcassets */,
+				2EEBFEB91FA0372C00EACEFF /* LaunchScreen.storyboard */,
+				2EEBFEBC1FA0372C00EACEFF /* Info.plist */,
+				2EEBFEBD1FA0372C00EACEFF /* main.m */,
+			);
+			path = FingerprintLogin;
+			sourceTree = "<group>";
+		};
+		2EEBFEC61FA0372C00EACEFF /* FingerprintLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EEBFEC71FA0372C00EACEFF /* FingerprintLoginTests.m */,
+				2EEBFEC91FA0372C00EACEFF /* Info.plist */,
+			);
+			path = FingerprintLoginTests;
+			sourceTree = "<group>";
+		};
+		2EEBFED11FA0372C00EACEFF /* FingerprintLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EEBFED21FA0372C00EACEFF /* FingerprintLoginUITests.m */,
+				2EEBFED41FA0372C00EACEFF /* Info.plist */,
+			);
+			path = FingerprintLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EEBFEAA1FA0372B00EACEFF /* FingerprintLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEBFED71FA0372C00EACEFF /* Build configuration list for PBXNativeTarget "FingerprintLogin" */;
+			buildPhases = (
+				2EEBFEA71FA0372B00EACEFF /* Sources */,
+				2EEBFEA81FA0372B00EACEFF /* Frameworks */,
+				2EEBFEA91FA0372B00EACEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerprintLogin;
+			productName = FingerprintLogin;
+			productReference = 2EEBFEAB1FA0372B00EACEFF /* FingerprintLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EEBFEC21FA0372C00EACEFF /* FingerprintLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEBFEDA1FA0372C00EACEFF /* Build configuration list for PBXNativeTarget "FingerprintLoginTests" */;
+			buildPhases = (
+				2EEBFEBF1FA0372C00EACEFF /* Sources */,
+				2EEBFEC01FA0372C00EACEFF /* Frameworks */,
+				2EEBFEC11FA0372C00EACEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EEBFEC51FA0372C00EACEFF /* PBXTargetDependency */,
+			);
+			name = FingerprintLoginTests;
+			productName = FingerprintLoginTests;
+			productReference = 2EEBFEC31FA0372C00EACEFF /* FingerprintLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EEBFECD1FA0372C00EACEFF /* FingerprintLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEBFEDD1FA0372C00EACEFF /* Build configuration list for PBXNativeTarget "FingerprintLoginUITests" */;
+			buildPhases = (
+				2EEBFECA1FA0372C00EACEFF /* Sources */,
+				2EEBFECB1FA0372C00EACEFF /* Frameworks */,
+				2EEBFECC1FA0372C00EACEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EEBFED01FA0372C00EACEFF /* PBXTargetDependency */,
+			);
+			name = FingerprintLoginUITests;
+			productName = FingerprintLoginUITests;
+			productReference = 2EEBFECE1FA0372C00EACEFF /* FingerprintLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EEBFEA31FA0372B00EACEFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lujh;
+				TargetAttributes = {
+					2EEBFEAA1FA0372B00EACEFF = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					2EEBFEC21FA0372C00EACEFF = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EEBFEAA1FA0372B00EACEFF;
+					};
+					2EEBFECD1FA0372C00EACEFF = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EEBFEAA1FA0372B00EACEFF;
+					};
+				};
+			};
+			buildConfigurationList = 2EEBFEA61FA0372B00EACEFF /* Build configuration list for PBXProject "FingerprintLogin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EEBFEA21FA0372B00EACEFF;
+			productRefGroup = 2EEBFEAC1FA0372B00EACEFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EEBFEAA1FA0372B00EACEFF /* FingerprintLogin */,
+				2EEBFEC21FA0372C00EACEFF /* FingerprintLoginTests */,
+				2EEBFECD1FA0372C00EACEFF /* FingerprintLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EEBFEA91FA0372B00EACEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEBFEBB1FA0372C00EACEFF /* LaunchScreen.storyboard in Resources */,
+				2EEBFEB81FA0372C00EACEFF /* Assets.xcassets in Resources */,
+				2EEBFEB61FA0372C00EACEFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEBFEC11FA0372C00EACEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEBFECC1FA0372C00EACEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EEBFEA71FA0372B00EACEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEBFEB31FA0372C00EACEFF /* ViewController.m in Sources */,
+				2EEBFEBE1FA0372C00EACEFF /* main.m in Sources */,
+				2EEBFEB01FA0372B00EACEFF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEBFEBF1FA0372C00EACEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEBFEC81FA0372C00EACEFF /* FingerprintLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEBFECA1FA0372C00EACEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEBFED31FA0372C00EACEFF /* FingerprintLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EEBFEC51FA0372C00EACEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EEBFEAA1FA0372B00EACEFF /* FingerprintLogin */;
+			targetProxy = 2EEBFEC41FA0372C00EACEFF /* PBXContainerItemProxy */;
+		};
+		2EEBFED01FA0372C00EACEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EEBFEAA1FA0372B00EACEFF /* FingerprintLogin */;
+			targetProxy = 2EEBFECF1FA0372C00EACEFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EEBFEB41FA0372C00EACEFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EEBFEB51FA0372C00EACEFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EEBFEB91FA0372C00EACEFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EEBFEBA1FA0372C00EACEFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EEBFED51FA0372C00EACEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EEBFED61FA0372C00EACEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EEBFED81FA0372C00EACEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UN4Z23JG9;
+				INFOPLIST_FILE = FingerprintLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lujh.FingerprintLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EEBFED91FA0372C00EACEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UN4Z23JG9;
+				INFOPLIST_FILE = FingerprintLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lujh.FingerprintLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EEBFEDB1FA0372C00EACEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UN4Z23JG9;
+				INFOPLIST_FILE = FingerprintLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lujh.FingerprintLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerprintLogin.app/FingerprintLogin";
+			};
+			name = Debug;
+		};
+		2EEBFEDC1FA0372C00EACEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UN4Z23JG9;
+				INFOPLIST_FILE = FingerprintLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lujh.FingerprintLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerprintLogin.app/FingerprintLogin";
+			};
+			name = Release;
+		};
+		2EEBFEDE1FA0372C00EACEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UN4Z23JG9;
+				INFOPLIST_FILE = FingerprintLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lujh.FingerprintLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FingerprintLogin;
+			};
+			name = Debug;
+		};
+		2EEBFEDF1FA0372C00EACEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UN4Z23JG9;
+				INFOPLIST_FILE = FingerprintLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lujh.FingerprintLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FingerprintLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EEBFEA61FA0372B00EACEFF /* Build configuration list for PBXProject "FingerprintLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEBFED51FA0372C00EACEFF /* Debug */,
+				2EEBFED61FA0372C00EACEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EEBFED71FA0372C00EACEFF /* Build configuration list for PBXNativeTarget "FingerprintLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEBFED81FA0372C00EACEFF /* Debug */,
+				2EEBFED91FA0372C00EACEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EEBFEDA1FA0372C00EACEFF /* Build configuration list for PBXNativeTarget "FingerprintLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEBFEDB1FA0372C00EACEFF /* Debug */,
+				2EEBFEDC1FA0372C00EACEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EEBFEDD1FA0372C00EACEFF /* Build configuration list for PBXNativeTarget "FingerprintLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEBFEDE1FA0372C00EACEFF /* Debug */,
+				2EEBFEDF1FA0372C00EACEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EEBFEA31FA0372B00EACEFF /* Project object */;
+}
